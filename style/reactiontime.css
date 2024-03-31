@@ -1,0 +1,210 @@
+
+.game-container{
+    background-color: #2b87d1;
+    height: 520px;
+    color: #f1f1f1;
+    cursor: pointer;
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.launch-menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+.launch-menu img{
+    width: 80px;
+    margin-bottom: 60px;
+    animation: pulse 2s infinite;
+}
+
+.launch-menu h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.launch-menu .hero-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.launch-menu button{
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #ffd154;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    border-radius: 5px;
+    transition: background 0.1s linear;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.launch-menu button:hover{
+    background: #f1f1f1;
+}
+
+
+.game-display{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display:none;
+}
+
+.game-display .dots{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.game-display .dots span{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+}
+
+.game-display .game-info{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.rest-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.rest-menu img{
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.rest-menu .display-time{
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rest-menu .display-time span{
+    font-family: Roboto, sans-serif;
+}
+
+.rest-menu .rest-info{
+    font-size: 25px;
+    
+}
+
+
+.wrong-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.wrong-menu img{
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.wrong-menu .wrong-message{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrong-menu .wrong-info{
+    font-size: 25px;
+}
+
+
+.end-menu{
+    height: 100%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.end-menu img{
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+.end-menu .subtitle{
+    font-size:22px;
+    margin-bottom: 10px;
+}
+
+.end-menu .display-score{
+    font-size: 80px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.end-menu .save-info{
+    margin-bottom: 20px;
+}
+
+.end-menu button{
+    margin: 0 auto;
+    margin-left: 10px;
+    padding: 12px 30px;
+    background-color: #ffd154;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    border-radius: 5px;
+    transition: background 0.1s linear;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+.end-menu .restart-btn{
+    background-color: bisque;
+}
+
+.end-menu button:hover{
+    opacity: 0.9;
+}
+
+@keyframes pulse{
+    50%{
+        opacity: 0.5;
+    }
+}

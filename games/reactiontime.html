@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Human Benchmark Clone Reaction Time</title>
+    <link rel="icon" href="../ressources/éclairjaune.svg">
+    <link rel="stylesheet" href="../style/navbar.css" />
+    <link rel="stylesheet" href="../style/reactiontime.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,900&family=Raleway:wght@100;400;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <script src="../apps/reactiontime.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="left-div navdiv">
+        <div class="home-title">
+            <img src="../ressources/éclairjaune.svg" alt="" class="home-icon">
+            <a href="../index.html"> Human Benchmark </a>
+        </div>
+        <a class="dashboard" href=""> Dashboard </a>
+    </div>
+    <div class="right-div navdiv">
+        <a class="signup" href=""> S'inscrire </a>
+        <a class="login" href=""> Se connecter </a>
+    </div>
+</nav>
+
+<main>
+    <div class="game-container">
+
+        <div class="launch-menu">
+            <img src="../ressources/éclairblanc.svg" alt="">
+            <h1 class="hero-title">Temps de réaction</h2>
+            <p class="hero-subtitle">Quand l'écran rouge devient vert, cliquer aussi vite que possible.</p>
+            <button class="launch-btn">Commencer</button>
+        </div>
+
+        <div class="game-display">
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <p class="game-info">Attendez le vert</p>
+        </div>
+
+        <div class="wrong-menu">
+            <img src="../ressources/wrongblanc.svg" alt="!">
+            <p class="wrong-message">Trop tôt !</p>
+            <p class="wrong-info">Cliquer pour réessayer</p>
+        </div>
+
+
+        <div class="rest-menu">
+            <img src="../ressources/horlogeblanc.svg" alt="clock">
+            <p class="display-time"><span>292</span> ms</p>
+            <p class="rest-info">Cliquer pour continuer</p>
+        </div>
+
+        <div class="end-menu">
+            <img src="../ressources/éclairblanc.svg" alt="">
+            <p class="subtitle"> Temps de réaction moyen </p>
+            <p class="display-score">369 ms</p>
+            <p class="save-info">Enregistrer votre score pour vous comparer !</p>
+
+            <div class="btns-container">
+                <button type="button">Enregistrer</button>
+                <button type="button" class="restart-btn">Réessayer</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</main>
+
+</body>
+</html>

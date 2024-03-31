@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Human Benchmark Clone Reaction Time</title>
+    <link rel="icon" href="../ressources/éclairjaune.svg">
+    <link rel="stylesheet" href="../style/navbar.css" />
+    <link rel="stylesheet" href="../style/numbermemory.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,900&family=Raleway:wght@100;400;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <script src="../apps/numbermemory.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="left-div navdiv">
+        <div class="home-title">
+            <img src="../ressources/éclairjaune.svg" alt="" class="home-icon">
+            <a href="../index.html"> Human Benchmark </a>
+        </div>
+        <a class="dashboard" href=""> Dashboard </a>
+    </div>
+    <div class="right-div navdiv">
+        <a class="signup" href=""> S'inscrire </a>
+        <a class="login" href=""> Se connecter </a>
+    </div>
+</nav>
+
+<main>
+
+    <div class="game-container">
+
+        <div class="launch-menu">
+            <img src="../ressources/numbermemlogoblanc.svg" alt="">
+            <h1 class="hero-title">Mémoire des nombres</h2>
+            <p class="hero-subtitle">En moyenne, un humain peut retenir 9 chiffres différents, et vous ?</p>
+            <button class="launch-btn">Commencer</button>
+        </div>
+
+        <div class="game-number-display">
+
+            <p class="number-display">856</p>
+
+            <div class="progress-bar">
+                <div class="fill-line">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="number-input-menu">
+            <p> Quel était le nombre ?</p>
+            <p> Appuyez sur ENTRÉE pour valider</p>
+
+            <form action="" class="user-answer">
+                <input class="number-input" type="text">
+                <button type="submit" class="validate-answer-btn">Valider</button>
+            </form>
+
+        </div>
+
+        <div class="rest-menu">
+
+            <p class="subtitle"> Number</p>
+            <p class="display-number">4056</p>
+            
+            <p class="subtitle"> Votre réponse </p>
+            <p class="display-answer">4056</p>
+
+            <p class="level">Niveau X</p>
+            
+            <button type="button" class="next-btn">Suivant</button>
+    
+        </div>
+
+        <div class="end-menu">
+
+            <p class="subtitle"> Number</p>
+            <p class="display-number">81248</p>
+            
+            <p class="subtitle"> Votre réponse </p>
+            <p class="display-answer">998456</p>
+
+            <p class="level">Niveau X</p>
+
+            <p class="save-info">Enregistrer votre score pour vous comparer !</p>
+            <div class="btns-container">
+                <button type="button">Enregistrer</button>
+                <button type="button" class="restart-btn">Réessayer</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+</main>

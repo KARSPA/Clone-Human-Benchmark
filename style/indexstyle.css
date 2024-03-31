@@ -1,0 +1,138 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: Raleway, sans-serif;
+    background-color: #ccc;
+
+}
+
+.navbar{
+    background-color:#f2f2f2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    color: #222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    opacity: 0.6;
+}
+
+.navdiv{
+    display: flex;
+    gap: 20px;
+}
+
+.home-title{
+    display: flex;
+    height: 20px;
+}
+
+.home-icon{
+    margin-right: 10px;
+}
+
+
+
+.hero-banner{
+    background-color: #2b87d1;
+    padding: 60px 70px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.hero-banner img{
+    margin-bottom: 40px;
+}
+
+.hero-banner h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero-banner .hero-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero-banner a{
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: #ffd154;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #222;
+    border-radius: 5px;
+    transition: background 0.1s linear;
+}
+
+.hero-banner a:hover{
+    background: #f1f1f1;
+}
+
+
+.games-grid{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card{
+    /* border: 1px solid crimson; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 50px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease-out;
+    position: relative;
+}
+
+.card a{
+    /* border: 1px solid crimson; */
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .card-subtitle{
+    font-weight: 500;
+}
+
+.card img{
+    width: 60px;
+    opacity: 0.6;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}

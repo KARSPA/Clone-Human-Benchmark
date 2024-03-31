@@ -1,0 +1,46 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: Raleway, sans-serif;
+    background-color: #ccc;
+
+}
+
+.navbar{
+    background-color:#f2f2f2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    color: #222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    opacity: 0.6;
+}
+
+.navdiv{
+    display: flex;
+    gap: 20px;
+}
+
+.home-title{
+    display: flex;
+    height: 20px;
+}
+
+.home-icon{
+    margin-right: 10px;
+}
